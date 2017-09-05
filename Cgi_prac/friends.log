@@ -1,0 +1,10 @@
+2017-09-04 10:15:11,739 friends3.py[line:94] INFO first into 'if not error:...else:...'
+2017-09-04 10:15:11,739 friends3.py[line:47] INFO howmany is:0
+2017-09-04 10:15:35,415 friends3.py[line:94] INFO first into 'if not error:...else:...'
+2017-09-04 10:15:35,416 friends3.py[line:47] INFO howmany is:0
+2017-09-04 10:15:35,416 friends3.py[line:52] INFO str(i) == howmany!!!
+2017-09-04 10:32:55,389 friends3.py[line:94] INFO first into 'if not error:...else:...'
+2017-09-04 10:32:55,390 friends3.py[line:47] INFO howmany is:0
+2017-09-04 10:33:07,350 friends3.py[line:94] INFO first into 'if not error:...else:...'
+2017-09-04 10:33:07,350 friends3.py[line:47] INFO howmany is:10
+2017-09-04 10:33:07,351 friends3.py[line:52] INFO str(i) == howmany!!!

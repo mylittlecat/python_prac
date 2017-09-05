@@ -1,0 +1,68 @@
+X-QQ-mid: @esmtp15t1504074285t6h69ypvj
+Message-Id: <report.1504074292>
+From: "PostMaster" <PostMaster@qq.com>
+To: jianyu0119@qq.com
+Date: Wed, 30 Aug 2017 14:24:52 +0800
+Subject: =?gb2312?B?wLTX1HFxLmNvbbXEzcvQxQ==?=
+Content-type: multipart/report; report-type=delivery-status; boundary=QQ_MAIL_RETURN
+Auto-Submitted: auto-generated
+X-QQ-MAIL-TYPE: bulletin
+X-QQ-STYLE: 5
+
+--QQ_MAIL_RETURN
+Content-type: text/html; charset="gb18030"
+
+<html>
+<head>
+<title>QQ邮箱退信</title>
+</head>
+<body>
+<p style="font-size:14px; font-family:verdana; margin:0 0 10px; line-height:22px; text-align:left">很抱歉您发送的邮件被退回，以下是该邮件的相关信息：</p>
+
+<table style="width:90%; border-collapse:collapse; margin:0 0 15px" cellpadding="0" cellspacing="0" border="0">
+<tr> <td style="width:120px; font-family:verdana; font-size:14px; font-weight:bold; text-align:center; background:#E0ECF9; border:1px solid #C1D9F3">被退回邮件</td>
+<td style="border:1px solid #C1D9F3; font-family:verdana; padding:5px 15px; line-height:20px; font-size:14px;">主 题：test <br/>时 间：1970-01-01 07:59:59 </td> </tr> </table>
+
+<table style="width:90%; border-collapse:collapse; margin:0 0 10px" cellpadding="0" cellspacing="0" border="0"><tr><td colspan="2" style="font-size:14px;font-weight:bold;padding:5px 10px;border:1px solid #C1D9F3; background:#C1D9F3">无法发送到 jianyu.bi@acorn-net.com</td>
+</tr><tr><td style="width:120px;  font-size:14px;text-align:center; background:#EFF5FB; border:1px solid #C1D9F3">退信原因</td>
+<td style="border:1px solid #C1D9F3; font-family:verdana; padding:5px 15px; line-height:20px; font-size:14px;">
+未知原因 <br /> host mx.acorn-net.com[36.110.79.124] said: 550 5.7.1 Missing purported responsible address (in reply to end of DATA command) </td></tr>
+<tr><td style="width:120px;font-size:14px;text-align:center; background:#EFF5FB; border:1px solid #C1D9F3">解决方案</td>
+<td style="border:1px solid #C1D9F3; font-family:verdana; padding:5px 15px; line-height:20px; font-size:14px;">
+请联系您的收件人（jianyu.bi@acorn-net.com）或其所在服务商了解退信原因。 您也可以<a href="http://mail.qq.com/cgi-bin/help_feedback_person?sender=jianyu0119@qq.com&receiver=jianyu.bi@acorn-net.com&sendtime=1970-01-01 07:59:59&reason=host mx.acorn-net.com[36.110.79.124] said: 550 5.7.1 Missing purported responsible address (in reply to end of DATA command)&subject=test" style="background:#bfda9c; color:#000000;" target="_blank">向管理员报告此退信</a>。</td></tr></table>
+
+
+<p style="font-size:14px; font-family:verdana; margin:0 0 10px; line-height:22px; text-align:left">此外，您还可以 <a href="http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=29&&no=188" target="_blank">点击这里</a> 获取更多关于退信的帮助信息。</p>
+</body>
+</html>
+
+--QQ_MAIL_RETURN
+Content-type: message/rfc822; name="mail.eml";
+	charset="gb18030"
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename="mail.eml"
+
+X-QQ-mid: esmtp15t1504074285t6h69ypvj
+Received: from [127.0.1.1] (unknown [59.174.79.9])
+	by esmtp5.qq.com (ESMTP) with 
+	id ; Wed, 30 Aug 2017 14:23:17 +0800 (CST)
+X-QQ-SSF: B1010000000000F0F5200300002000Q
+X-QQ-FEAT: /A5Igf99+LRJGhDGeV2CtWihB8ONj7721GhvFXoMR0PEcJAW7RMJcLAGfLc9Q
+	lVr1aGIRhqc29cIyvgAfvwSg5r+MfDwelG3hZqocsZ50sEIf4iRk/O5BsvUylmS12yy9YHO
+	0iUMLEIHPuCVbmiyvB8SqGZ1zrm0eWAe8yRpY90tQOq3jyUigbgIvIki9wim+RUDGnHiCY5
+	+q6AN4nxRqCKli8odM3DN+SypsfDNgIFjyxcOTWqs4A==
+X-QQ-GoodBg: 2
+X-QQ-CSender: jianyu0119@qq.com
+Sender: jianyu0119@qq.com
+ From: jianyu0119@qq.com
+To:
+jianyu.bi@acorn-net.com, jianyu0119@qq.com
+Subject: test
+msg
+X-QQ-SENDSIZE: 520
+Feedback-ID: esmtp:qq.com:bgweb:bgweb10
+Message-ID: mis_713E767D3F5153B851A43BCA@unknown.com
+
+xxx .
+--QQ_MAIL_RETURN--
+

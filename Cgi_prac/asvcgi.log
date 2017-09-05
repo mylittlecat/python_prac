@@ -1,0 +1,332 @@
+2017-09-04 16:19:29,088 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:19:34,443 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:21:13,508 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:21:17,251 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:21:19,779 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:21:37,179 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:21:42,998 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:24:02,812 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:24:02,812 asvcgi.py[line:208] INFO Error!!!
+2017-09-04 16:24:06,477 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:24:06,477 asvcgi.py[line:208] INFO Error!!!
+2017-09-04 16:24:40,589 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:24:40,590 asvcgi.py[line:208] ERROR Error!!!
+Traceback (most recent call last):
+  File "cgi-bin/asvcgi.py", line 165, in go
+    self.showForm()
+  File "cgi-bin/asvcgi.py", line 77, in showForm
+    if eachLang in self.langs:
+AttributeError: 'AdvCGI' object has no attribute 'langs'
+2017-09-04 16:38:56,933 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:39:42,020 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:39:42,021 asvcgi.py[line:208] ERROR Error!!!
+Traceback (most recent call last):
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 165, in go
+    self.showForm()
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 74, in showForm
+    self.getCPPCookies()
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 65, in getCPPCookies
+    if self.cookies['info'] != '':
+KeyError: 'info'
+2017-09-04 16:39:46,200 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:39:46,201 asvcgi.py[line:208] ERROR Error!!!
+Traceback (most recent call last):
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 165, in go
+    self.showForm()
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 74, in showForm
+    self.getCPPCookies()
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 65, in getCPPCookies
+    if self.cookies['info'] != '':
+KeyError: 'info'
+2017-09-04 16:39:53,151 asvcgi.py[line:159] INFO logger working
+2017-09-04 16:39:53,152 asvcgi.py[line:208] ERROR Error!!!
+Traceback (most recent call last):
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 165, in go
+    self.showForm()
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 74, in showForm
+    self.getCPPCookies()
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 65, in getCPPCookies
+    if self.cookies['info'] != '':
+KeyError: 'info'
+2017-09-04 17:04:55,027 asvcgi.py[line:159] INFO logger working
+2017-09-04 17:04:55,027 asvcgi.py[line:208] ERROR Error!!!
+Traceback (most recent call last):
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 165, in go
+    self.showForm()
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 74, in showForm
+    self.getCPPCookies()
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 65, in getCPPCookies
+    if self.cookies['info'] != '':
+KeyError: 'info'
+2017-09-04 17:17:02,590 asvcgi.py[line:159] INFO logger working
+2017-09-04 17:17:41,652 asvcgi.py[line:159] INFO logger working
+2017-09-04 17:17:46,043 asvcgi.py[line:159] INFO logger working
+2017-09-04 17:18:05,181 asvcgi.py[line:159] INFO logger working
+2017-09-04 17:18:05,182 asvcgi.py[line:208] ERROR Error!!!
+Traceback (most recent call last):
+  File "cgi-bin/asvcgi.py", line 165, in go
+    self.showForm()
+  File "cgi-bin/asvcgi.py", line 74, in showForm
+    self.getCPPCookies()
+  File "cgi-bin/asvcgi.py", line 65, in getCPPCookies
+    if self.cookies['info'] != '':
+KeyError: 'info'
+2017-09-04 17:21:56,103 asvcgi.py[line:160] INFO logger working
+2017-09-04 17:21:56,103 asvcgi.py[line:65] INFO self.cookies is:{}
+2017-09-04 17:21:56,104 asvcgi.py[line:209] ERROR Error!!!
+Traceback (most recent call last):
+  File "cgi-bin/asvcgi.py", line 166, in go
+    self.showForm()
+  File "cgi-bin/asvcgi.py", line 75, in showForm
+    self.getCPPCookies()
+  File "cgi-bin/asvcgi.py", line 66, in getCPPCookies
+    if self.cookies['info'] != '':
+KeyError: 'info'
+2017-09-04 17:22:41,479 asvcgi.py[line:160] INFO logger working
+2017-09-04 17:22:41,479 asvcgi.py[line:65] INFO self.cookies is:{}
+2017-09-04 17:22:41,480 asvcgi.py[line:209] ERROR Error!!!
+Traceback (most recent call last):
+  File "cgi-bin/asvcgi.py", line 166, in go
+    self.showForm()
+  File "cgi-bin/asvcgi.py", line 75, in showForm
+    self.getCPPCookies()
+  File "cgi-bin/asvcgi.py", line 66, in getCPPCookies
+    if self.cookies['info'] != '':
+KeyError: 'info'
+2017-09-04 17:23:02,996 asvcgi.py[line:160] INFO logger working
+2017-09-04 17:23:02,997 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 17:25:57,369 asvcgi.py[line:160] INFO logger working
+2017-09-04 17:25:57,369 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 17:27:53,655 asvcgi.py[line:160] INFO logger working
+2017-09-04 17:27:53,655 asvcgi.py[line:65] INFO self.cookies is:{}
+2017-09-04 17:27:53,655 asvcgi.py[line:209] ERROR Error!!!
+Traceback (most recent call last):
+  File "cgi-bin/asvcgi.py", line 166, in go
+    self.showForm()
+  File "cgi-bin/asvcgi.py", line 75, in showForm
+    self.getCPPCookies()
+  File "cgi-bin/asvcgi.py", line 66, in getCPPCookies
+    if self.cookies['info'] != '':
+KeyError: 'info'
+2017-09-04 17:29:36,456 asvcgi.py[line:160] INFO logger working
+2017-09-04 17:29:36,457 asvcgi.py[line:65] INFO self.cookies is:{}
+2017-09-04 17:29:36,457 asvcgi.py[line:209] ERROR Error!!!
+Traceback (most recent call last):
+  File "cgi-bin/asvcgi.py", line 166, in go
+    self.showForm()
+  File "cgi-bin/asvcgi.py", line 75, in showForm
+    self.getCPPCookies()
+  File "cgi-bin/asvcgi.py", line 66, in getCPPCookies
+    if self.cookies["'info'"] != '':
+KeyError: "'info'"
+2017-09-04 17:31:29,565 asvcgi.py[line:160] INFO logger working
+2017-09-04 17:31:29,566 asvcgi.py[line:65] INFO self.cookies is:{}
+2017-09-04 17:31:29,566 asvcgi.py[line:209] ERROR Error!!!
+Traceback (most recent call last):
+  File "cgi-bin/asvcgi.py", line 166, in go
+    self.showForm()
+  File "cgi-bin/asvcgi.py", line 75, in showForm
+    self.getCPPCookies()
+  File "cgi-bin/asvcgi.py", line 66, in getCPPCookies
+    if self.cookies["info"]!= '':
+KeyError: 'info'
+2017-09-04 17:34:37,751 asvcgi.py[line:160] INFO logger working
+2017-09-04 17:34:37,752 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 17:37:12,965 asvcgi.py[line:161] INFO logger working
+2017-09-04 17:37:12,966 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 17:37:12,966 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 17:43:35,387 asvcgi.py[line:161] INFO logger working
+2017-09-04 17:43:35,388 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 17:43:35,388 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 17:43:43,050 asvcgi.py[line:161] INFO logger working
+2017-09-04 17:43:43,051 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 17:43:43,051 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 17:43:53,567 asvcgi.py[line:161] INFO logger working
+2017-09-04 17:43:53,567 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 17:43:53,567 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 17:46:10,446 asvcgi.py[line:161] INFO logger working
+2017-09-04 17:46:10,447 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 17:46:10,447 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 17:46:14,688 asvcgi.py[line:161] INFO logger working
+2017-09-04 17:46:14,688 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 17:46:14,689 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:13:32,814 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:13:32,814 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 18:13:32,814 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:20:06,915 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:20:06,915 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 18:20:06,915 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:20:08,634 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:20:08,635 asvcgi.py[line:210] INFO Error!!!
+2017-09-04 18:20:19,921 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:20:19,922 asvcgi.py[line:210] INFO Error!!!
+2017-09-04 18:20:31,731 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:20:31,732 asvcgi.py[line:210] INFO Error!!!
+2017-09-04 18:20:37,980 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:20:37,981 asvcgi.py[line:210] INFO Error!!!
+2017-09-04 18:22:00,233 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:22:00,233 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 18:22:00,233 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:22:02,433 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:22:02,434 asvcgi.py[line:210] ERROR Error!!!
+Traceback (most recent call last):
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 178, in go
+    self.cookie['user'] = unqoute(strip(\
+NameError: global name 'unqoute' is not defined
+2017-09-04 18:23:05,061 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:23:05,061 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 18:23:05,061 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:23:07,503 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:23:07,504 asvcgi.py[line:210] ERROR Error!!!
+Traceback (most recent call last):
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 179, in go
+    form['cookie'].value))
+AttributeError: 'AdvCGI' object has no attribute 'cookie'
+2017-09-04 18:27:04,212 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:27:04,213 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 18:27:04,213 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:27:06,032 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:27:06,033 asvcgi.py[line:178] INFO form is:FieldStorage(None, None, [FieldStorage('cookie', None, ''), FieldStorage('person', None, ' '), FieldStorage('lang', None, 'Python'), FieldStorage('upfile', '', '')])
+2017-09-04 18:27:06,033 asvcgi.py[line:211] ERROR Error!!!
+Traceback (most recent call last):
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 180, in go
+    form['cookie'].value))
+AttributeError: 'AdvCGI' object has no attribute 'cookie'
+2017-09-04 18:30:53,299 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:30:53,299 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 18:30:53,300 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:30:55,665 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:30:55,666 asvcgi.py[line:171] INFO form['person'].value is: 
+2017-09-04 18:30:55,666 asvcgi.py[line:179] INFO form is:FieldStorage(None, None, [FieldStorage('cookie', None, ''), FieldStorage('person', None, ' '), FieldStorage('lang', None, 'Python'), FieldStorage('upfile', '', '')])
+2017-09-04 18:30:55,666 asvcgi.py[line:212] ERROR Error!!!
+Traceback (most recent call last):
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 181, in go
+    form['cookie'].value))
+AttributeError: 'AdvCGI' object has no attribute 'cookie'
+2017-09-04 18:35:52,731 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:35:52,732 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 18:35:52,732 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:35:54,451 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:35:54,452 asvcgi.py[line:171] INFO form['person'].value is: 
+2017-09-04 18:35:54,452 asvcgi.py[line:179] INFO form['cookie'].value is:
+2017-09-04 18:35:54,452 asvcgi.py[line:212] ERROR Error!!!
+Traceback (most recent call last):
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 181, in go
+    form['cookie'].value))
+AttributeError: 'AdvCGI' object has no attribute 'cookie'
+2017-09-04 18:38:17,981 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:38:17,981 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 18:38:17,981 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:38:20,942 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:38:20,943 asvcgi.py[line:171] INFO form['person'].value is: 
+2017-09-04 18:38:20,943 asvcgi.py[line:179] INFO form['cookie'].value is:
+2017-09-04 18:38:20,944 asvcgi.py[line:211] ERROR Error!!!
+Traceback (most recent call last):
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 180, in go
+    self.cookie['user'] = unquote(strip(form['cookie'].value))
+AttributeError: 'AdvCGI' object has no attribute 'cookie'
+2017-09-04 18:40:35,893 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:40:35,893 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 18:40:35,893 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:40:39,101 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:40:39,102 asvcgi.py[line:171] INFO form['person'].value is: 
+2017-09-04 18:40:39,102 asvcgi.py[line:179] INFO form['cookie'].value is:
+2017-09-04 18:40:47,901 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:40:47,902 asvcgi.py[line:171] INFO form['person'].value is: 
+2017-09-04 18:40:47,902 asvcgi.py[line:179] INFO form['cookie'].value is:5000
+2017-09-04 18:40:57,652 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:40:57,653 asvcgi.py[line:171] INFO form['person'].value is: jian yu
+2017-09-04 18:40:57,653 asvcgi.py[line:179] INFO form['cookie'].value is:
+2017-09-04 18:40:57,653 asvcgi.py[line:212] ERROR Error!!!
+Traceback (most recent call last):
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 208, in go
+    self.doResult()
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 130, in doResult
+    langList = langList + '<LI>%s<BR>' % eachLang
+UnboundLocalError: local variable 'langList' referenced before assignment
+2017-09-04 18:43:33,249 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:43:33,250 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 18:43:33,250 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:43:39,579 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:43:39,580 asvcgi.py[line:171] INFO form['person'].value is: 
+2017-09-04 18:43:39,580 asvcgi.py[line:179] INFO form['cookie'].value is:
+2017-09-04 18:43:46,227 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:43:46,228 asvcgi.py[line:171] INFO form['person'].value is: jian yu
+2017-09-04 18:43:46,228 asvcgi.py[line:179] INFO form['cookie'].value is:
+2017-09-04 18:43:46,228 asvcgi.py[line:212] ERROR Error!!!
+Traceback (most recent call last):
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 208, in go
+    self.doResult()
+  File "/home/bijy/python_prac/Cgi_prac/cgi-bin/asvcgi.py", line 154, in doResult
+    join(self.langs, ','), filname], ':')
+NameError: global name 'filname' is not defined
+2017-09-04 18:44:36,017 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:44:36,017 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-04 18:44:36,018 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:44:43,333 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:44:43,334 asvcgi.py[line:171] INFO form['person'].value is:
+2017-09-04 18:44:43,334 asvcgi.py[line:179] INFO form['cookie'].value is:
+2017-09-04 18:44:48,736 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:44:48,737 asvcgi.py[line:171] INFO form['person'].value is: jian yu
+2017-09-04 18:44:48,737 asvcgi.py[line:179] INFO form['cookie'].value is:
+2017-09-04 18:44:59,797 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:44:59,797 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python:', 'user': ''}
+2017-09-04 18:44:59,797 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:45:03,882 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:45:03,883 asvcgi.py[line:171] INFO form['person'].value is:Jian Yu
+2017-09-04 18:45:03,883 asvcgi.py[line:179] INFO form['cookie'].value is:
+2017-09-04 18:45:09,801 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:45:09,802 asvcgi.py[line:171] INFO form['person'].value is:Jian Yu
+2017-09-04 18:45:09,802 asvcgi.py[line:179] INFO form['cookie'].value is:5000
+2017-09-04 18:45:17,544 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:45:17,545 asvcgi.py[line:171] INFO form['person'].value is:Jian Yu
+2017-09-04 18:45:17,545 asvcgi.py[line:179] INFO form['cookie'].value is:5000
+2017-09-04 18:45:27,848 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:45:27,849 asvcgi.py[line:171] INFO form['person'].value is:Jian Yu
+2017-09-04 18:45:27,849 asvcgi.py[line:179] INFO form['cookie'].value is:
+2017-09-04 18:45:30,791 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:45:30,792 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python:test.txt', 'user': ''}
+2017-09-04 18:45:30,792 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 18:45:45,587 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:45:45,588 asvcgi.py[line:171] INFO form['person'].value is:Jian Yu
+2017-09-04 18:45:45,589 asvcgi.py[line:179] INFO form['cookie'].value is:5000
+2017-09-04 18:45:59,750 asvcgi.py[line:161] INFO logger working
+2017-09-04 18:45:59,750 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++,C:demo.py', 'user': 5000}
+2017-09-04 18:45:59,750 asvcgi.py[line:73] INFO getCPPCookies(self) finished!!!
+2017-09-04 19:02:00,623 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++,C:demo.py', 'user': 5000}
+2017-09-04 19:02:18,202 asvcgi.py[line:169] INFO form['person'].value is:Jian Yu
+2017-09-04 19:02:18,202 asvcgi.py[line:177] INFO form['cookie'].value is:5000
+2017-09-04 19:02:27,315 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++,C:demo.py', 'user': 5000}
+2017-09-04 19:03:05,367 asvcgi.py[line:169] INFO form['person'].value is:Jian Yu
+2017-09-04 19:03:05,367 asvcgi.py[line:177] INFO form['cookie'].value is:5000
+2017-09-04 19:03:09,448 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++:SetupCD.txt', 'user': 5000}
+2017-09-05 09:00:20,214 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}
+2017-09-05 09:00:33,265 asvcgi.py[line:169] INFO form['person'].value is: jian yu
+2017-09-05 09:00:33,265 asvcgi.py[line:177] INFO form['cookie'].value is:5000
+2017-09-05 09:00:41,343 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++,C:', 'user': 5000}
+2017-09-05 09:00:43,031 asvcgi.py[line:169] INFO form['person'].value is:Jian Yu
+2017-09-05 09:00:43,031 asvcgi.py[line:177] INFO form['cookie'].value is:5000
+2017-09-05 09:00:54,374 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++,C:', 'user': 5000}
+2017-09-05 09:09:15,424 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++,C:', 'user': 5000}
+2017-09-05 09:09:20,006 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++,C:', 'user': 5000}
+2017-09-05 09:09:23,120 asvcgi.py[line:171] INFO form['person'].value is:Jian Yu
+2017-09-05 09:09:23,120 asvcgi.py[line:179] INFO form['cookie'].value is:5000
+2017-09-05 09:09:26,359 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++,C:', 'user': 5000}
+2017-09-05 09:09:39,123 asvcgi.py[line:171] INFO form['person'].value is:Jian Yu
+2017-09-05 09:09:39,124 asvcgi.py[line:179] INFO form['cookie'].value is:5000
+2017-09-05 09:09:49,933 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++,C:SetupCD.txt', 'user': 5000}
+2017-09-05 09:09:51,576 asvcgi.py[line:171] INFO form['person'].value is:Jian Yu
+2017-09-05 09:09:51,576 asvcgi.py[line:179] INFO form['cookie'].value is:5000
+2017-09-05 09:09:54,838 asvcgi.py[line:171] INFO form['person'].value is:Jian Yu
+2017-09-05 09:09:54,838 asvcgi.py[line:179] INFO form['cookie'].value is:5000
+2017-09-05 09:10:03,242 asvcgi.py[line:171] INFO form['person'].value is:Jian Yu
+2017-09-05 09:10:03,242 asvcgi.py[line:179] INFO form['cookie'].value is:5000
+2017-09-05 09:10:05,204 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++,C:', 'user': 5000}
+2017-09-05 09:10:08,254 asvcgi.py[line:171] INFO form['person'].value is:
+2017-09-05 09:10:08,255 asvcgi.py[line:179] INFO form['cookie'].value is:5000
+2017-09-05 09:31:15,616 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++,C:', 'user': 5000}
+2017-09-05 09:32:16,995 asvcgi.py[line:171] INFO form['person'].value is:Jian Yu
+2017-09-05 09:32:16,995 asvcgi.py[line:179] INFO form['cookie'].value is:5000
+2017-09-05 09:32:51,164 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++,C:', 'user': 5000}
+2017-09-05 10:05:58,700 asvcgi.py[line:65] INFO self.cookies is:{'info': 'Jian Yu:Python,C++,C:', 'user': 5000}
+2017-09-05 10:07:32,801 asvcgi.py[line:65] INFO self.cookies is:{'info': '', 'user': ''}

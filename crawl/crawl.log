@@ -1,0 +1,19 @@
+2017-09-01 15:06:22,628 crawl.py[line:122] ERROR Exception:HTMLParseError!
+Traceback (most recent call last):
+  File "crawl.py", line 120, in go
+    self.getPage(url)
+  File "crawl.py", line 92, in getPage
+    links = r.parseAndGetLinks() # get and process links
+  File "crawl.py", line 67, in parseAndGetLinks
+    self.parser.feed(open(self.file).read())
+  File "/usr/lib/python2.7/sgmllib.py", line 104, in feed
+    self.goahead(0)
+  File "/usr/lib/python2.7/sgmllib.py", line 174, in goahead
+    k = self.parse_declaration(i)
+  File "/usr/lib/python2.7/markupbase.py", line 98, in parse_declaration
+    decltype, j = self._scan_name(j, i)
+  File "/usr/lib/python2.7/markupbase.py", line 392, in _scan_name
+    % rawdata[declstartpos:declstartpos+20])
+  File "/usr/lib/python2.7/htmllib.py", line 45, in error
+    raise HTMLParseError(message)
+HTMLParseError: expected name token at "<!\xddP\xda\xc4]\xcf=\xdb\xf3'(\xfb\x07PK\x01\x02\x00"
