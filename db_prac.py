@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# coding:utf-8
 
 import os
 from random import randrange as rrange
@@ -26,7 +27,7 @@ def connect(db, dbName):
             import sqlite3
         except ImportError, e:
             try:
-                from pysqlite2 import dbapi2 as sqlite3
+                from pysqlite2 import dbapi2 as sqlite3 # 这是一个第三方包/not std package
             except ImportError, e:
                 return None
 
@@ -103,6 +104,7 @@ def randName():
         yield pick.pop(rrange(len(pick)))
 
 def insert(cur, db):
+    """三种数据库支持的SQL语句参数风格不同，所以需要区分/different paramstyles"""
     if db == 'sqlite':
         cur.executemany("INSERT INTO users VALUES(?, ?, ?)",
         [(who, uid, rrange(1,5)) for who, uid in randName()])
