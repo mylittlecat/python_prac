@@ -3,7 +3,9 @@
 
 import os
 from random import randrange as rrange
-from sqlalchemy import *
+import exceptions
+from sqlalchemy import pool, create_engine, Table, Column, String, Integer, MetaData
+from sqlalchemy.orm import sessionmaker
 from db_prac import NAMES, randName 
 # 提倡先导入Python标准库模块,然后导入第三方或扩展模块,最后导入本地模块的风格
 
@@ -16,12 +18,15 @@ class MySQLAlchemy(object):
         import MySQLdb
         import _mysql_exceptions
         MySQLdb = pool.manage(MySQLdb)
-        url = 'mysql://db=%s' % DBNAME
+        url = 'mysql://root:8169778@localhost:3306/%s' % DBNAME
         eng = create_engine(url)
+        metadata = MetaData(eng)
+#        print '\n'.join(['%s:%s' % item for item in eng.__dict__.items()])
         try:
-            cxn = eng.connection()
+            cxn = eng.connect()
+            print '\n'.join(['%s:%s' % item for item in cxn.__dict__.items()])
         except _mysql_exceptions.OperationalError, e:
-            eng1 = create_engine('mysql://user=root')
+            eng1 = create_engine('mysql://root:8169778@localhost:3306/%s' % DBNAME)
             try:
                 eng1.execute('DROP DATABASE %s' % DBNAME)
             except _mysql_exceptions.OperationalError, e:
@@ -30,16 +35,16 @@ class MySQLAlchemy(object):
             eng1.execute(
             "GRANT ALL ON %s.* TO ''@'localhost'" % DBNAME)
             eng1.commit()
-            cxn = eng.connection()
+            cxn = eng.connect()
 
         try:
-            users = Table('users', eng, autoload=True)
-        except exceptions.SQLError, e:
-            users = Table('users',eng,
+            users = Table('users', metadata, autoload=True)
+        except:
+            users = Table('users', metadata,
                 Column('login', String(8)),
                 Column('uid', Integer),
                 Column('prid', Integer),
-                redefine=True)
+                )
 
         self.eng = eng
         self.cxn = cxn
@@ -49,7 +54,7 @@ class MySQLAlchemy(object):
         users = self.users
         try:
             users.drop()
-        except exceptions.SQLError, e:
+        except:
             pass
         users.create()
 
@@ -82,8 +87,9 @@ class MySQLAlchemy(object):
         return getattr(self.users, attr)
 
     def finish(self):
-        self.cxn.commit()
-        self.cxn.commit()
+#        self.cxn.commit()
+#        self.eng.close()
+        pass
 
 def main():
     print '*** Connecting to %r database' % DBNAME
