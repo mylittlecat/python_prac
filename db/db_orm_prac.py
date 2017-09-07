@@ -1,16 +1,19 @@
 #!/usr/bin/env python
 # coding:utf-8
+# use sqlalchemy module to operate mysql
 
 import os
 from random import randrange as rrange
 import exceptions
 from sqlalchemy import pool, create_engine, Table, Column, String, Integer, MetaData
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy.exc import OperationalError
 from db_prac import NAMES, randName 
 # 提倡先导入Python标准库模块,然后导入第三方或扩展模块,最后导入本地模块的风格
 
 FIELDS = ('login', 'uid', 'prid')
 DBNAME = 'testaaa'
+PASSWORD = '8169778'
 COLSIZ = 10
 
 class MySQLAlchemy(object):
@@ -24,17 +27,19 @@ class MySQLAlchemy(object):
 #        print '\n'.join(['%s:%s' % item for item in eng.__dict__.items()])
         try:
             cxn = eng.connect()
-            print '\n'.join(['%s:%s' % item for item in cxn.__dict__.items()])
-        except _mysql_exceptions.OperationalError, e:
-            eng1 = create_engine('mysql://root:8169778@localhost:3306/%s' % DBNAME)
+#            print '\n'.join(['%s:%s' % item for item in cxn.__dict__.items()])
+        except OperationalError, e:
+            eng1 = create_engine('mysql://root:8169778@localhost:3306')
+            DB_Session = sessionmaker(bind = eng1)
+            session  = DB_Session() # use it to operarte database
             try:
-                eng1.execute('DROP DATABASE %s' % DBNAME)
-            except _mysql_exceptions.OperationalError, e:
+                session.execute('DROP DATABASE %s' % DBNAME)
+            except OperationalError, e:
                 pass
-            eng1.execute('CREATE DATABASE %s' % DBNAME)
-            eng1.execute(
-            "GRANT ALL ON %s.* TO ''@'localhost'" % DBNAME)
-            eng1.commit()
+            session.execute('CREATE DATABASE %s' % DBNAME)
+            session.execute(
+            "GRANT ALL ON %s.* TO ''@'localhost' identified by '%s'" % (DBNAME, PASSWORD))
+            session.commit() # don't forget to commit
             cxn = eng.connect()
 
         try:
@@ -81,7 +86,7 @@ class MySQLAlchemy(object):
         print '\n%s%s%s' % ('LOGIN'.ljust(COLSIZ),
             'USERID'.ljust(COLSIZ), 'FROJ#'.ljust(COLSIZ))
         for data in res.fetchall():
-            print '%s%s%s' % tuple([str(s).title().ljust(COLSIZ) for s in data])
+            print '%s%s%s' % tuple([str(s).title().ljust(COLSIZ) for s in data]) # % requires following a tuple for sure
 
     def __getattr__(self, attr):
         return getattr(self.users, attr)
@@ -115,8 +120,8 @@ def main():
     orm.dbDump()
 
     print '\n*** Dropping users table'
-    orm.drop()
-    orm.finish()
+    orm.drop() # if orm dosen't have method 'drop()', then getattr(orm, 'drop') will be called to delete table.
+    orm.finish() # actually,it does nothing.
 
 if __name__ =='__main__':
     main()

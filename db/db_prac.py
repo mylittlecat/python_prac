@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # coding:utf-8
+# use sql string to operate mysql
 
 import os
 from random import randrange as rrange
